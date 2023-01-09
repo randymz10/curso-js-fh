@@ -4,7 +4,7 @@ import { renderTodos } from './usecases/render-todos';
 
 
 const ElementIDs = {
-  TodoList: 'todo-list',
+  TodoList: '.todo-list',
 }
 /**
  * 
