@@ -1,6 +1,6 @@
 import { Todo } from "../todos/models/todo.model";
 
-const Filters = {
+export const Filters = {
   All: "all",
   Completed: "Completed",
   Pending: "Pending",
@@ -8,11 +8,11 @@ const Filters = {
 
 const state = {
   todos: [
-    new Todo("Piedra del alma"),
-    new Todo("Piedra del infinito"),
-    new Todo("Piedra del tiempo"),
-    new Todo("Piedra del poder"),
-    new Todo("Piedra del realidad"),
+    new Todo("Salvar al mundo"),
+    new Todo("Banãr a los gatos"),
+    new Todo("Preparar el almuerzo"),
+    new Todo("Reunirme con los vengadores"),
+    new Todo("Visitar a Juan"),
   ],
   filter: Filters.All,
 };
@@ -84,7 +84,7 @@ const deleteTodo = (todoId) => {
 };
 
 const deleteCompleted = () => {
-  state.todos = state.todos.filter((todo) => todo.done);
+  state.todos = state.todos.filter((todo) => !todo.done);
   saveStateToLocalStorage();
 };
 /**
