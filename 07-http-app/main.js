@@ -1,5 +1,6 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
+import { UsersApp } from './src/users/users-app';
 import { BreakingbadApp } from './src/breakingbad/breakingbadapp';
 
 document.querySelector('#app').innerHTML = `
@@ -18,5 +19,5 @@ document.querySelector('#app').innerHTML = `
 `;
 const element = document.querySelector('.card');
 
-BreakingbadApp(element);
-
+// BreakingbadApp(element);
+await UsersApp(element);
