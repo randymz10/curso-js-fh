@@ -1,5 +1,5 @@
 .hide-modal{
-    /* display: none !important; */
+    display: none !important;
 }
 
 .modal-container {
@@ -32,5 +32,5 @@ input {
 }
 
 span, label {
-    /* color: black; */
+    color: black;
 }
