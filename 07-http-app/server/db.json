@@ -449,13 +449,6 @@
       "first_name": "Mcbride",
       "last_name": "Woodward",
       "gender": "male"
-    },
-    {
-      "balance": 1500,
-      "first_name": "Randy ",
-      "isActive": true,
-      "last_name": "Munoz",
-      "id": 51
     }
   ]
 }
